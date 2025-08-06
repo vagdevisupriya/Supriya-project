@@ -339,6 +339,29 @@ body.active { overflow: hidden; }
   color: var(--color-primary);
 }
 
+.login-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--color-primary);
+  background: var(--bg-secondary);
+  border-radius: 50%;
+  transition: var(--transition-1);
+  text-decoration: none;
+}
+
+.login-link:hover {
+  color: var(--raw-seinna);
+  background: var(--bg-primary);
+  transform: translateY(-2px);
+}
+
+.login-link ion-icon {
+  font-size: 18px;
+}
+
 .theme-btn {
   padding: 4px;
   width: 48px;
